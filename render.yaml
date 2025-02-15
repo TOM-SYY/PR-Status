@@ -2,4 +2,4 @@ services:
   - type: web
     name: PR Status Tracker
     env: static
-    staticPublishPath: /
+    staticPublishPath: ./
