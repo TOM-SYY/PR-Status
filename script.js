@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const repoOwner = 'OWNER_NAME'; // ใส่ชื่อเจ้าของ repository
-    const repoName = 'REPO_NAME'; // ใส่ชื่อ repository
+    const repoOwner = 'OWNER_NAME'; // TOM-SYY repository
+    const repoName = 'REPO_NAME'; // PR-Status repository
     const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/pulls`;
 
     fetch(apiUrl)
