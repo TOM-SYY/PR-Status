@@ -1,0 +1,12 @@
+{
+  "name": "pr-status-tracker",
+  "version": "1.0.0",
+  "description": "A simple web app to track PR statuses",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p $PORT"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
